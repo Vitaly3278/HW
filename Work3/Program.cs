@@ -19,7 +19,7 @@ try
 {
     int x = int.Parse(Console.ReadLine());
     int[] result = GetArray(x);
-    Console.WriteLine($"Ваш массив: [{string.Join(",", result)}");
+    Console.WriteLine($"Ваш массив: [{string.Join(",", result)}]");
 }
 catch
 {
